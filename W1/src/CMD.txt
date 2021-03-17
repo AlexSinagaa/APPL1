@@ -1,0 +1,6 @@
+cd D:\4 - Semester\4 - Analasis dan Perancangan Perangkat Lunak 1\Y - Git\APPL-1\W1\src
+1. Another Type of Employee
+2. Painting Shapes
+3. Polymorphic Sorting
+4. Coloring a Moveable Circle
+5. Speed Control (Belum)
