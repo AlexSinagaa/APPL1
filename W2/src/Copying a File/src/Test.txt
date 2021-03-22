@@ -1,0 +1,37 @@
+English:
+Write a program that prompts the user for a filename, then opens a Scanner to the file and copies it, a 
+line at a time, to the standard output. If the user enters the name of a file that does not exist, ask for 
+another name until you get one that refers to a valid file. Some things to consider:
+
+• Remember that you can create a Scanner from a File object, which you can create from the String 
+  representing the filename.
+
+• The Scanner constructor that takes a File may throw a FileNotFoundException -- this is how you will know 
+  if the file does not exist. Think carefully about how to use the try/catch structure in combination with 
+  a loop that asks for a new filename if the current file does not exist.
+
+• Remember that the scope of a variable declared inside a try is the try itself -- it does not extend to the 
+  following code. Furthermore, the compiler knows that an initialization that occurs inside a try may or may 
+  not get executed, as the try may be thrown out of first. So any variable that you will want to use both in 
+  and after the try must be declared and initialized before the try.
+
+/*==========================================================================================================
+==========================================================================================================*/
+
+Indonesia:
+Tulis program yang meminta nama file pengguna, lalu buka Pemindai ke file dan menyalinnya, baris demi baris, 
+ke keluaran standar. Jika pengguna memasukkan nama file yang tidak ada, tanyakan nama lain sampai Anda 
+mendapatkan nama yang merujuk ke file yang valid. Beberapa hal yang perlu diperhatikan:
+
+• Ingatlah bahwa Anda dapat membuat Scanner dari objek File, yang dapat Anda buat dari String yang mewakili 
+  nama file.
+
+• Konstruktor Pemindai yang mengambil File mungkin memunculkan FileNotFoundException - ini adalah cara Anda 
+  mengetahui jika file tidak ada. Pikirkan baik-baik tentang cara menggunakan struktur coba / tangkap dalam 
+  kombinasi dengan perulangan yang meminta nama file baru jika file saat ini tidak ada.
+
+• Ingatlah bahwa ruang lingkup variabel yang dideklarasikan di dalam percobaan adalah percobaan itu sendiri 
+  - ini tidak meluas ke kode berikut. Lebih jauh lagi, kompilator mengetahui bahwa inisialisasi yang terjadi 
+  di dalam percobaan mungkin atau tidak dapat dijalankan, karena percobaan mungkin dibuang terlebih dahulu. 
+  Jadi variabel apa pun yang ingin Anda gunakan baik di dalam maupun setelah percobaan harus dideklarasikan 
+  dan diinisialisasi sebelum percobaan.
