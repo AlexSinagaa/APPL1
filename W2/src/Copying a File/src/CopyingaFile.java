@@ -3,17 +3,13 @@
 //
 // Copies a file to the standard output.
 //**********************************************************
-
 import java.util.Scanner;
-
 import java.io.*;
-
 public class CopyingaFile{
-    public static void main(String[] args)    {
+    public static void main(String[] args){
         String nameoffile = null;
         Scanner fileScanner = null;
         Scanner scan = new Scanner(System.in);
-
         do{
             try{
                 System.out.print("Enter a nameoffile: ");
@@ -24,8 +20,7 @@ public class CopyingaFile{
             }
         }
         while(fileScanner == null);
-        while (fileScanner.hasNext())
-        {
+        while (fileScanner.hasNext()){
             System.out.println(fileScanner.nextLine());
         }
     }
