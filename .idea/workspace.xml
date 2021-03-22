@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f463c5-c675-437c-88c0-1cf61479798f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/W2/W2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/W2/src/Placing Exception Handlers/ParseInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Throwing Exceptions/Throwing Exceptions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Throwing Exceptions/src/Factorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Throwing Exceptions/src/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/W2/src/Placing Exception Handlers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/W2/src/Throwing Exceptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
