@@ -8,8 +8,7 @@
 import java.util.Scanner;
 
 public class countLetters {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         int[] counts = new int[26];
         Scanner scan = new Scanner(System.in);
         //get word from user

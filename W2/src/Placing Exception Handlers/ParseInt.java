@@ -18,7 +18,6 @@ public class ParseInt {
                 sum += val;
             } catch (NumberFormatException e) {
             }
-        }
-        System.out.println("The sum of the integer/s on this line is " + sum);
+        }System.out.println("The sum of the integer/s on this line is " + sum);
     }
 }

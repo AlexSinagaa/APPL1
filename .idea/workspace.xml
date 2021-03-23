@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f463c5-c675-437c-88c0-1cf61479798f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Enhancing a Movable Circle/Enhancing a Movable Circle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Enhancing a Movable Circle/src/MoveCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Reading from and Writing to Text Files/Reading from and Writing to Text Files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/W2/src/Reading from and Writing to Text Files/src/Warning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W2/src/Copying a File/src/CopyingaFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/W2/src/Copying a File/src/CopyingaFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W2/src/Copying a File/src/CopyingaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/W2/src/Copying a File/src/CopyingaFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W2/src/Exceptions Aren't Always Errors/countLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/W2/src/Exceptions Aren't Always Errors/countLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W2/src/Placing Exception Handlers/ParseInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/W2/src/Placing Exception Handlers/ParseInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/W2/src/Copying a File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/W2/src/Reading from and Writing to Text Files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
