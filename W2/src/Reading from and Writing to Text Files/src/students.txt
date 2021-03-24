@@ -8,5 +8,4 @@ Taylor 83 190
 Davis 110 198
 Smart 75 292.5
 Bird 84 168
-Summers 52.0 83.2
-Donn 22 12.2
+Summers 52 83.2
