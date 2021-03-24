@@ -20,8 +20,6 @@ public class Warning{
         String inputName = "students.txt"; // can be like ==> D:\Z - Main\4 - Semester\4 - Analasis dan Perancangan Perangkat Lunak 1\PR\GitHub\W2\src\Reading from and Writing to Text Files\src\students.dat
         String outputName = "warning.txt"; // can be like ==> D:\Z - Main\4 - Semester\4 - Analasis dan Perancangan Perangkat Lunak 1\PR\GitHub\W2\src\Reading from and Writing to Text Files\src\warning.dat
         DecimalFormat decimalFormat = new DecimalFormat("0.##");
-//        Scanner inFile = null;
-//        PrintWriter outFile = null;
         try{
             // Set up scanner to input file
             Scanner scan = new Scanner(new File(inputName));
@@ -31,11 +29,6 @@ public class Warning{
             outFile.println ("Students on Academic Warning\n");
             // Process the input file, one token at a time
             while (scan.hasNextLine()){
-//                line = inFile.nextLine();
-//                inFile = new Scanner(line);
-//                name = inFile.next();
-//                creditHrs = inFile.nextInt();
-//                qualityPts = inFile.nextDouble();
                 String[] input = scan.nextLine().split(" ",0);
                 // Get the credit hours and quality points and
                 name = input[0];
@@ -48,8 +41,7 @@ public class Warning{
                     outFile.write(name + " " + creditHrs + " " + decimalFormat.format(gpa) + "\n");
                 }
             }
-            // Close output file
-            outFile.close();
+            outFile.close();    // Close output file
             System.out.println("Written file successful");
         }catch (FileNotFoundException exception){
             System.out.println ("The file " + inputName + " was not found.");
