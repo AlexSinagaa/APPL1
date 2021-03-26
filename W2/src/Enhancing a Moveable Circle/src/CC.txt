@@ -1,0 +1,5 @@
+            // when circle reach the edge
+            left.setEnabled(x >= (CIRCLE_SIZE / 2) + dx);
+            right.setEnabled(x <= width);
+            up.setEnabled(y >= (CIRCLE_SIZE / 2) + dy);
+            down.setEnabled(y <= height);

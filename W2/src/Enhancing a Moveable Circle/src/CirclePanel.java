@@ -23,6 +23,7 @@ public class CirclePanel extends JPanel{
         this.height = height;
         // Set coordinates so circle starts in middle
         x = (width/2)-(CIRCLE_SIZE/2);
+        x=0;
         y = (height/2)-(CIRCLE_SIZE/2);
         c = Color.green;
         // Need a border layout to get the buttons on the bottom
@@ -80,12 +81,32 @@ public class CirclePanel extends JPanel{
         public void actionPerformed(ActionEvent e){
             x += dx;
             y += dy;
-            repaint();
             // when circle reach the edge
-            left.setEnabled(x >= (CIRCLE_SIZE / 2) + dx);
-            right.setEnabled(x <= width);
-            up.setEnabled(y >= (CIRCLE_SIZE / 2) + dy);
-            down.setEnabled(y <= height);
+            if(x<0){
+                x=0;
+                left.setEnabled(false);
+            }else{
+                left.setEnabled(true);
+            }
+            if(x>width){
+                x=width;
+                right.setEnabled(false);
+            }else{
+                right.setEnabled(true);
+            }
+            if(y<0){
+                y=0;
+                up.setEnabled(false);
+            }else{
+                up.setEnabled(true);
+            }
+            if(y>height){
+                y=height;
+                down.setEnabled(false);
+            }else{
+                down.setEnabled(true);
+            }
+            repaint();
         }
     }
 }
